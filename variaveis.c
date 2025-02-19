@@ -10,5 +10,10 @@ int main(){
     char nome[30] = "Eric"; //Variavel de texto recebe nomes
     double peso = 84.2;
 
+    /*Inicializando outros valores nas variaveis*/
+    idade = 20;
+
+    quantidade = 30;
+
     return 0; //Fim do programa
 }
