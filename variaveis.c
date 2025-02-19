@@ -3,12 +3,12 @@
 
 /* Funcao principal do programa*/
 int main(){
-    int idade; //Variavel do tipo inteiro
-    int quantidade; //Variavel do tipo inteiro
-    float altura; //Variavel de ponto flutuante decima
-    char letra; //Variavel de caracteres
-    char nome[30]; //Variavel de texto recebe nomes
-    double peso;
+    int idade = 34; //Variavel do tipo inteiro
+    int quantidade = 1; //Variavel do tipo inteiro
+    float altura = 1.75; //Variavel de ponto flutuante decima
+    char letra = 'A'; //Variavel de caracteres
+    char nome[30] = "Eric"; //Variavel de texto recebe nomes
+    double peso = 84.2;
 
     return 0; //Fim do programa
 }
