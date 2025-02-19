@@ -1,5 +1,7 @@
+/*Biblioteca padrao de entrada e saida*/
 #include <stdio.h>
 
+/*Criei uma funcao para carta 1 com todas as variaveis e exibicao na tela*/
 void carta1(){
     char estado = 'A';
     char codigo[] = "A01";
@@ -18,6 +20,7 @@ void carta1(){
     printf("Numero de pontos turisticos: %d \n", pontosTuristicos);
 }
 
+/*Criei uma funcao para carta B com todas as variaveis e exibicao na tela*/
 void carta2(){
     char estado = 'B';
     char codigo[] = "B02";
@@ -37,7 +40,7 @@ void carta2(){
 }
 
 int main(){
-
+    /* Exibindo as informações chamando as funções na main principal*/
     printf("Super trunfo das cidades \n");
     printf("\t===========================\n");
     carta1();
