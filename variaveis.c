@@ -10,10 +10,18 @@ int main(){
     char nome[30] = "Eric"; //Variavel de texto recebe nomes
     double peso = 84.2;
 
-    /*Inicializando outros valores nas variaveis*/
-    idade = 20;
+    printf("O %s tem uma idade de %d anos\n", nome, idade);
+    printf("A Altura eh de %.2F metros \n", altura);
+    printf("A opcao sua eh: %c \n", letra);
 
-    quantidade = 30;
+    /*
+    %d: Imprime um inteiro em formato decimal
+    %i: Equivale a um inteiro %d
+    %f: Ponto flutuante decimal
+    %e: Notacao cientifica
+    %c: Imprime um caractere
+    %s: Imprime um conjunto de cacteres que pode ser um nome
+    */
 
     return 0; //Fim do programa
 }
